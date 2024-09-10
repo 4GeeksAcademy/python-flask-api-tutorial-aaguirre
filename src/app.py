@@ -24,7 +24,7 @@ def add_new_todo():
 def delete_todo(position):
     tarea_eliminada= todos.pop(position)
     print("This is the position to delete:", tarea_eliminada)
-    return jsonify(todos) #una vez elim la tarea con la posicion dada, retorno la lista actualizada. 
+    return jsonify(todos) #una vez elim la tarea con la posicion dda, retorno la lista actualizada. 
 
 
 
